@@ -1,0 +1,18 @@
+# Ignore Vivado project stuff
+ECE449 Project Refactored.srcs/
+project_1/
+
+# Ignore testing folder
+testing/
+
+# General Vivado junk
+*.xpr
+.cache/
+.runs/
+.gen/
+.Xil/
+.ip_user_files/
+
+# Logs
+*.log
+*.jou

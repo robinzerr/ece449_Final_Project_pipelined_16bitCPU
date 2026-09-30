@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_fetch_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="constants_package" />
+            <top_module name="tb_fetch" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="244.001 ns"></ZoomEndTime>
+      <Cursor1Time time="49.200 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="147"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject type="logic" fp_name="/tb_fetch/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_fetch/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_fetch/rom_ena">
+      <obj_property name="ElementShortName">rom_ena</obj_property>
+      <obj_property name="ObjectShortName">rom_ena</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_fetch/mode">
+      <obj_property name="ElementShortName">mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_fetch/in_pc">
+      <obj_property name="ElementShortName">in_pc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">in_pc[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_fetch/pc">
+      <obj_property name="ElementShortName">pc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_fetch/instruction">
+      <obj_property name="ElementShortName">instruction[15:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_fetch/uut/rom/addra">
+      <obj_property name="ElementShortName">addra[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[8:0]</obj_property>
+   </wvobject>
+</wave_config>
